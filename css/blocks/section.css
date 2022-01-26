@@ -1,0 +1,14 @@
+.section {
+    margin: 0 0 53px 0;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px;
+    margin-top: 127px;
+}
+
+.section__title-margin {
+    margin-top: 244px;
+}

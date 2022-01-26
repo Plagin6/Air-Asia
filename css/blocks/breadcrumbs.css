@@ -1,0 +1,35 @@
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__item--active:hover {
+    color: #dfb56d;
+}
+
+.breadcrumbs__link {
+    padding-left: 4px;
+    padding-right: 4px;
+}
